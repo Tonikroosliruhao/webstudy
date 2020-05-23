@@ -1,0 +1,48 @@
+.main_{
+    float: left;
+    width: 600px;
+    height: 850px;
+    background-color: #fff;
+}
+.main_ h1 {
+    background: url(../images/lou.gif) no-repeat;
+    width: 123px;
+    height: 27px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main_ h1 p{
+    opacity: 0;
+}
+.main_ dl {
+	width:250px;
+	height:181px;
+	float:left;
+	padding-left:15px;
+	padding-top:10px;
+}
+.main_ dl dd {
+	width:250px;
+	height:150px;
+	background:red;
+}
+.main_ dl dd img {
+	display:block;
+	width:250px;
+	height:150px;
+}
+.main_ dl dt {
+	margin:auto;
+	width:234px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	background:#eee;
+	border-bottom:1px solid #f60;
+}
+.main_ p{
+    clear: left;
+    text-align: center;
+    padding-top: 30px;
+}

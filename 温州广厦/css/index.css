@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 867px;
+    margin: 0 auto;
+    background: #2c383e url(../images/bgindex.jpg) repeat-x;
+    font-size: 12px;
+    color: #666;
+}
+ul{
+    list-style: none;
+}
+.header{
+    width: 867px;
+    height: 323px;
+    border: 1px green solid;
+    margin: auto;
+}
+embed{
+    width: 867px;
+    height: 323px;
+}
+/* ----------------------------------------------------------------------- */
+.nav{
+    width: 867px;
+    height: 51px;
+    margin: auto;
+    background: url(../images/linkbg.jpg);
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    background:url(../images/linkr.gif) no-repeat right center;
+    width: 124px;
+    height: 51px;
+    text-align: center;
+}
+.nav a{
+    color: white;
+    position: relative;
+    top: 15px;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    text-decoration:underline;
+    font-size: 14px;
+    font-weight: 1000;
+}
+.nav ul > li:last-child{
+    width: 123px;
+}
+.main{
+    width: 867px;
+    height: 490px;
+    margin: auto;
+    background-color: #fff;
+}
+/* ---------------------------------------------------------------------- */
+.sidebar{
+    width: 251px;
+    height: 490px;
+    float: left;
+    background: #fff url(../images/weline.gif) no-repeat right 54%;
+}
+.sidebar h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url(../images/wel.gif) no-repeat;
+}
+.sidebar h1 p{
+    opacity: 0.0;
+}
+.sidebar img{
+    margin-left: 16px;
+}
+.sidebar p{
+    margin-left: 20px;
+}
+.sidebar ul {
+    padding-top: 10px;
+    line-height: 180%;
+    text-indent: 20px;
+}
+.sidebar ul li a {
+    display: inline-block;
+    width: 65px;
+    height: 11px;
+    background: url(../images/more.gif) no-repeat left center;
+}
+.sidebar ul li.line {
+    border-bottom: 1px solid #999;
+    margin-left: 19px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    height: 10px;
+}
+/* ---------------------------------------------------------------------- */
+.news{
+    width: 313px;
+    height: 300px;
+    float: left;
+}
+.news h1{
+    background: url(../images/news.gif) no-repeat;
+    width: 123px;
+    height: 27px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.news h1 p{
+    opacity: 0.0;
+}
+.news ul {
+    line-height: 160%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: url(../images/weline.gif) repeat-y right top;
+}
+.news li{
+    padding-left: 15px;
+}
+.news ul li.date{
+    color: orange;
+    font-weight: bold;
+    background: url(../images/ico.gif) no-repeat left center;
+}
+.news ul li a {
+    display: inline-block;
+    width: 65px;
+    height: 11px;
+    background: url(../images/more.gif) no-repeat left center;
+}
+/* ----------------------------------------------------------------- */
+.about{
+    width: 303px;
+    height: 300px;
+    float: left;
+}
+.about h1 p{
+    opacity: 0.0;
+}
+.about h1 {
+    background: url(../images/about.gif) no-repeat;
+    width: 127px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.about img{
+    margin-left: 16px;
+}
+.about p{
+    width: 235px;
+    margin-left: 23px;
+    color: #666;
+    line-height: 150%;
+}
+.about a {
+    display: block;
+    margin-top: 8px;
+    margin-left: 22px;
+    width: 65px;
+    height: 11px;
+    background: url(../images/more.gif) no-repeat left center;
+}
+/* ------------------------------------------------------------ */
+.estate{
+    width: 616px;
+    height: 190px;
+    float: left;
+}
+.content{
+    width: 533px;
+    height: 189px;
+    margin-left: 33px;
+    border-top: 1px solid #ccc;
+    float: left;
+}
+.content img{
+    float: left;
+}
+.right{
+    float: left;
+    width: 288px;
+}
+.right a {
+    display: block;
+    margin-top: 8px;
+    margin-left: 22px;
+    width: 65px;
+    height: 11px;
+    background: url(../images/more.gif) no-repeat left center;
+    padding-left: 20px;
+}
+.right p{
+    width: 267px;
+    margin-left: 23px;
+    color: #666;
+}
+.right h1{
+    background: url(../images/estate1.gif) no-repeat;
+    width: 117px;
+    height: 30px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.right h1 p{
+    opacity: 0.0;
+}
+.footer{
+    width: 867px;
+    height: 110px;
+    margin: auto;
+    background: url(../images/bg.gif);
+    float: left;
+}
+.footer img{
+    padding-top: 10px;
+}
+.footer p{
+    color: #ccc;
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}

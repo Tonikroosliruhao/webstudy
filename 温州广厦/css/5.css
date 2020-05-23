@@ -1,0 +1,41 @@
+.main_{
+    float: left;
+    width: 600px;
+    height: 850px;
+    background-color: #fff;
+}
+.main_ h1 {
+    background:url(../images/job.gif) no-repeat;
+    width: 123px;
+    height: 27px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main_ h1 p{
+    opacity: 0;
+}
+.main_ table{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    width: 540px;
+    height: 103px;
+    border-collapse:collapse;
+}
+.main_ th,td{
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #ccc;
+}
+.main_ th{
+    background-color: #eee;
+    font-weight: normal;
+}
+.main_ p{
+    margin-top: 30px;
+    text-align: center;
+}
+tr:hover{
+    background-color: darkgoldenrod;
+}

@@ -1,0 +1,44 @@
+#sidebar {
+	width:266px;
+	height:850px;
+	background:#fff;
+	float:left;
+	border-right:1px solid #ccc;
+}
+#sidebar embed {
+	display:block;
+	width:220px;
+	height:200px;
+	margin: 20px;
+	float: left;
+}
+/* ------------------------------------------------------ */
+#content {
+	width:600px;
+	height:850px;
+	background:#fff;
+    float:left;
+    overflow: scroll;
+}
+#content h1 {
+	width:127px;
+	height:26px;
+	font-size:100%;
+	text-indent:-9999px;
+	margin-top:20px;
+    margin-left:20px;
+    background:url(../images/aboutme.gif) no-repeat;
+}
+#content img {
+	display:block;
+	padding-left:15px;
+}
+#content p {
+	line-height:180%;
+	text-indent:24px;    
+	padding-left:20px;
+    padding-right:60px;
+}
+#content p span {
+	color:#06f;
+}

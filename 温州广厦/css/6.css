@@ -1,0 +1,26 @@
+.main_{
+    float: left;
+    width: 600px;
+    height: 850px;
+    background-color: #fff;
+}
+.main_ h1 {
+    background:url(../images/lianxi.gif) no-repeat;
+    width: 123px;
+    height: 27px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main_ h1 p{
+    opacity: 0;
+}
+.main_ p{
+    margin-top: 30px;
+    text-align: center;
+}
+.main_ ul{
+    line-height: 180%;
+    margin-left: 20px;
+    margin-top: 10px;
+}

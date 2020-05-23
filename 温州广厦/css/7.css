@@ -1,0 +1,47 @@
+.main_{
+    float: left;
+    width: 600px;
+    height: 850px;
+    background-color: #fff;
+}
+.main_ h1 {
+    background:url(../images/Message.gif) no-repeat;
+    width: 123px;
+    height: 27px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main_ h1 p{
+    opacity: 0;
+}
+form{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+form p {
+    padding:2px 0 2px 0;
+}
+form p input.text{
+	width:150px;
+	height:20px;
+	border:1px solid #ccc;
+	background:#fff;
+}
+form p input.submit {
+	width:70px;
+	height:25px;
+	background:#fff;
+	border:1px solid #ccc;
+	cursor:pointer;
+	color:#666;
+}
+form p input.submit:hover {
+	background:#eee;
+}
+form textarea.area {
+	width:210px;
+	height:100px;
+	background:#fff;
+	border:1px solid #ccc;
+}

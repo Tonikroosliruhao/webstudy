@@ -1,0 +1,40 @@
+.main_{
+    float: left;
+    width: 600px;
+    height: 850px;
+    background-color: #fff;
+}
+.content_{
+    float: left;
+}
+.content_ h1 {
+    background: url(../images/newsc.gif) no-repeat;
+    width: 123px;
+    height: 27px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content_ h1 p{
+    opacity: 0;
+}
+.content_ ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 180%;
+}
+.content_ ul li {
+    padding-left: 15px;
+    background: url(../images/ico.gif) no-repeat left center;
+}
+.content_ a{
+    text-decoration: none;
+}
+.content_ p{
+    text-align: center;
+    margin-top: 30px;
+}
+a:hover{
+    color: orange;
+    font-weight: 100;
+}
