@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    height: 1150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    height: 152px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.header_top{
+    display: flex;
+}
+.header_top div{
+    width: auto;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin-left:3px;
+    margin-right: 3px;
+    margin-bottom: 10px;   
+}
+
+.header_top button{
+    height: 36px;
+    width: 91px;
+    align-self: center;
+    align-items: center;
+    margin:10px;
+    background-color:white;
+    border: solid 1px grey;
+    font-size: 13px;
+}
+div a:visited{
+    color: black;
+}
+div a:hover{
+    color: #31c27c;
+    text-decoration: none;
+}
+div a{
+    text-decoration: none;
+    font-size: 19px;
+    padding: 20px;
+    position: relative;
+}
+div > a > img{
+    height: 15px;
+    width: 40px;
+}
+.mark_1{
+   position: absolute;
+   top: 6px;
+   right: 2px;
+}
+.search{
+    position: relative;
+}
+.search  img{
+    height: 20px;
+    width: 20px;
+    margin-left: -30px;
+    padding-top: 5px;
+    position: absolute;
+    right: 1px;
+    top: 30px;
+
+}
+.search input{
+    height: 33px;
+    width: 215px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    text-align: center;
+}
+.qqmusic_logo {
+    width: 170px;
+    height: 46px;
+    margin-left: 30px;
+}
+
+.header_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header_bottom div a{
+    font-size: 15px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.main{
+    height: 100px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+}
+.main_top{
+    display:flex;
+}
+.main_top a{
+    font-size: 15px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 31px;
+    line-height: 1.5;
+    font-family: Microsoft YaHei;
+    display: block;
+    margin-top: 30px;
+}
+.main_bottom{
+    display: flex;
+    justify-content: center;
+}
+.main_bottom div{
+    margin: 18px;
+    margin-top: 15px;
+    width: 210px;
+    text-align: left;
+    font-size: 13px;
+}
+.main_bottom div img{
+    height: 210px;
+    width: 210px;
+}
+.main_bottom div a{
+    padding:0;
+    margin-top: 7px;
+    font-size: 14px;
+}
+span{
+    color: #999;
+    line-height: 25px;
+    font-size: 14px;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+.footer_top{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    margin-bottom: 20px;
+}
+.footer_top button{
+    height: 40px;
+    width: 90px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-left: 90px;
+    margin-right: 70px;
+}
+.footer_top div{
+    display: flex;
+    margin-left: -230px;
+}
+.blocks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.blocks div{
+    margin: 0;
+}
+.blocks div a{
+    font-size: 15px;
+    padding-top: 0;
+}
+.footer_bottom{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer_bottom div{
+    width: 30%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.footer_bottom div div{
+    position: absolute;
+    top: 40px;
+    left: 122px;
+}
+.footer_bottom div i{
+    position: absolute;
+    top: 66px;
+    left: 128px;
+}
+.footer_bottom div span{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+.footer_bottom div a img{
+    width: 90px;
+    height: 90px;
+    margin-left: 2px;
+    margin-top: 20px;
+}
