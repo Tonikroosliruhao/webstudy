@@ -4,7 +4,7 @@
 }
 .content{
     height: 1150px;
-    width: 100vw;
+    width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -111,7 +111,7 @@ div > a > img{
 
 .main{
     height: 100px;
-    width: 100%;
+    width: 1400px;
     flex: 1;
     display: flex;
     flex-direction: column;
